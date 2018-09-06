@@ -1,0 +1,26 @@
+{
+  "name": "react-native-add-custom-props",
+  "version": "0.1.0",
+  "description": "add custom props tp react native component",
+  "main": "addCustomProps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjuning/react-native-add-custom-props.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "youngjuning",
+    "杨俊宁",
+    "props"
+  ],
+  "author": "youngjuning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngjuning/react-native-add-custom-props/issues"
+  },
+  "homepage": "https://github.com/youngjuning/react-native-add-custom-props#readme"
+}
