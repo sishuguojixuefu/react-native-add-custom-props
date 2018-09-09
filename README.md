@@ -12,7 +12,7 @@ $ yarn add react-native-add-custom-props
 
 ```js
 import addCustomProps from 'react-native-add-custom-props'
-// 处理ios系统文字
+// 处理ios系统文字，可以判断一下平台
 addCustomProps(Text, {allowFontScaling: false})
 addCustomProps(TextInput, {allowFontScaling: false})
 ```
