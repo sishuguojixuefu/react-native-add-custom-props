@@ -1,6 +1,6 @@
 {
   "name": "react-native-add-custom-props",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "add custom props tp react native component",
   "main": "addCustomProps.js",
   "scripts": {

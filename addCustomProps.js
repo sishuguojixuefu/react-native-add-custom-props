@@ -4,13 +4,13 @@
  * @param {[type]} customProps   [自定义的Props]
  */
 const addCustomProps = (WrapComponent, customProps) => {
-  const componentRender = WrapComponent.prototype.render
-  const componentDefaultProps = WrapComponent.prototype.constructor.defaultProps
-  WrapComponent.prototype.constructor.defaultProps = {
+  const componentRender = WrapComponent.propTypes.render
+  const componentDefaultProps = WrapComponent.propTypes.constructor.defaultProps
+  WrapComponent.propTypes.constructor.defaultProps = {
     ...componentDefaultProps,
     ...customProps,
   }
-  WrapComponent.prototype.render = function render() {
+  WrapComponent.propTypes.render = function render() {
     const oldProps = this.props
     this.props = {
       ...this.props,
